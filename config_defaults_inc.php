@@ -1066,7 +1066,7 @@ $g_font_family_choices_local = array(
  * Browser window title
  * @global string $g_window_title
  */
-$g_window_title = 'MantisBT';
+$g_window_title = 'V2Tec Soluções';
 
 /**
  * OpenSearch engine title prefix.

@@ -71,7 +71,7 @@ $g_return_path_email    = 'admin@example.com';	# the return address for bounced 
 # $g_disallowed_files		= '';		# extensions comma separated
 
 # --- Branding ---
-# $g_window_title			= 'MantisBT';
+# $g_window_title			= 'V2Tec Soluções';
 # $g_logo_image			= 'images/mantis_logo.png';
 # $g_favicon_image		= 'images/favicon.ico';
 
