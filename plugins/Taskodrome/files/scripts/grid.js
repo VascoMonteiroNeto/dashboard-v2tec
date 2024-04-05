@@ -134,7 +134,7 @@ function Grid(/** @type {ColumnHandler} */columnHandler, /** @type {Page} */page
   };
 
   function drawColumnNames() {
-    var BLUE_COLOR = "#428AC8";
+    var BLUE_COLOR = "#393939";
     var back = new fabric.Rect({
       left: 0,
       top: 0,

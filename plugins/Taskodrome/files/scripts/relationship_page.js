@@ -50,7 +50,7 @@ var RelPage = (function() {
     var text = new fabric.Text(msg, {
       fontFamily: "Arial",
       fontSize: fabric.util.parseUnit("14px"),
-      fill: "#428AC8",
+      fill: "#393939",
 
       left: 10,
       top: 10,
@@ -219,9 +219,9 @@ var RelPage = (function() {
             {
               blockedParentFound = true;
               var number = new fabric.Text(blocked.issue.id.toString(), {
-                fontFamily: "Arial",
+                fontFamily: "Montserrat",
                 fontSize: fabric.util.parseUnit("12px"),
-                fill: "#428AC8",
+                fill: "#393939",
                 underline: true,
 
                 left: x,

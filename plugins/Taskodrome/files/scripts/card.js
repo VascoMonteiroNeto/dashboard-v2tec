@@ -7,7 +7,7 @@ function Card(id, owner, version, summary, description, severity, priority, prio
   var TEXT_H_OFFSET = 12;
   var TEXT_V_OFFSET = 6;
 
-  var BLUE_TEXT_COLOR = "#428AC8";
+  var BLUE_TEXT_COLOR = "#393939";
   var STROKE_COLOR = "#C0BFC1";
 
   Drawable.call(this, H_OFFSET, H_OFFSET, V_OFFSET, 0, false, page);

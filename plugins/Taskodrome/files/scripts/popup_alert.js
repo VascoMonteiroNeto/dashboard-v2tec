@@ -52,7 +52,7 @@ function PopupAlert(/** @type {Page} */page) {
     m_popup.msg = new fabric.Text(msgText, {
       fontFamily: "Arial",
       fontSize: fabric.util.parseUnit("20px"),
-      fill: "#428AC8",
+      fill: "#393939",
 
       evented: false,
       hasBorders: false,

@@ -4,7 +4,7 @@ function BlockGraphics(name, /** @type {ColumnHandler} */columnHandler, /** @typ
   var m_name = name;
   var m_name_height = 0;
 
-  var TEXT_COLOR = "#428AC8";
+  var TEXT_COLOR = "#393939";
   var DELIMITER_COLOR = "#BFD5E1";
 
   var m_label = null;
