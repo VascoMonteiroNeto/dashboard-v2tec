@@ -1094,13 +1094,13 @@ $g_admin_checks = ON;
  * It is also used to decorate OpenSearch Browser search entries.
  * @global string $g_favicon_image
  */
-$g_favicon_image = 'images/favicon.ico';
+$g_favicon_image = 'images/vdoistecIco.jpg';
 
 /**
  * Logo
  * @global string $g_logo_image
  */
-$g_logo_image = 'images/mantis_logo.png';
+$g_logo_image = 'images/tec-solucoes-logo-2.png';
 
 /**
  * Logo URL link

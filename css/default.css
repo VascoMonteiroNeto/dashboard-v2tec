@@ -10,17 +10,17 @@ span.required 		{ font-size: 8pt; color: #bb0000; }
 td.category, th.category,
 td.category label, th.category label
 {
-    background-color: #edf3f4 !important;
-    color: #000000;
-    font-weight: bold;
-    vertical-align : top;
+  background-color: #edf3f4 !important;
+  color: #000000;
+  font-weight: bold;
+  vertical-align : top;
 }
 td.category .small, th.category .small	{ font-weight: normal;  }
 
 .small-caption	{
-    border: 1px solid #fff;
-    font-size: 8pt;
-    padding: 0 5px;
+  border: 1px solid #fff;
+  font-size: 8pt;
+  padding: 0 5px;
 }
 tr.spacer			{ background-color: #ffffff !important; color: #000000; height: 5px; }
 
@@ -28,7 +28,7 @@ tr.spacer			{ background-color: #ffffff !important; color: #000000; height: 5px;
 /**
  * view_all_bug_page.php
  */
-#buglist td, #buglist th	{ text-align: center; }
+ #buglist td, #buglist th	{ text-align: center; }
 #buglist .column-summary,
 #buglist .column-description,
 #buglist .column-notes,
@@ -63,37 +63,37 @@ tr.bugnote .bugnote-note { background-color: #e8e8e8; color: #000000; width: 75%
 }
 
 .bug-attachments {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .bug-attachments > ul {
-	list-style: none;
-	margin: 0.5em;
-	padding: 0;
+  list-style: none;
+  margin: 0.5em;
+  padding: 0;
 }
 
 .bug-attachments > ul > li {
-	margin: 0.5em 0;
-	padding: 0;
+  margin: 0.5em 0;
+  padding: 0;
 }
 
 .bug-attachments > ul > li > div {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .bug-attachment-preview-text, .bug-attachment-preview-image {
-	margin: 1em;
-	padding: 1em;
+  margin: 1em;
+  padding: 1em;
 }
 
 .bug-attachment-preview-image img {
-	max-width: 100%;
+  max-width: 100%;
 }
 
 .bug-attachment-preview-text {
-	white-space: pre-wrap;
+  white-space: pre-wrap;
 }
 
 #dates label[for=start_date], #dates > label[for=end_date] {
@@ -113,24 +113,41 @@ td.print-overdue     { font-weight: bold; }
 .collapse-link { cursor: pointer; }
 
 .table-nonfluid {
-   width: auto !important;
+  width: auto !important;
 }
 
 .login-logo {
-	text-align: center;
+  text-align: center;
+  width: 50%;
+  max-height: auto;
+  display: flex;
+  margin: auto;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+}
+
+.login-logo-img {
+  margin: auto;
+  max-width: 80%;
+  max-height: 100%;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ 
 }
 
 /* strike-through resolved issues: #22492 */
-.resolved  {     
-    text-decoration: line-through;
+.resolved  {
+  text-decoration: line-through;
 }
 
 .error-details .code {
-	font-family: monospace;
+  font-family: monospace;
 }
 
 table.filters td.category {
-	color: #337ab7;
+  color: #337ab7;
 }
 
 .listjs-table .sort:after {
@@ -171,17 +188,17 @@ table.filters td.category {
 }
 
 .listjs-table .sort:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 .test-langs ol.plugins-toc {
-    column-count: auto;
-    column-width: 130px;
-    column-gap: 60px;
-    margin: 10px 15px 10px 30px;
+  column-count: auto;
+  column-width: 130px;
+  column-gap: 60px;
+  margin: 10px 15px 10px 30px;
 }
 
 .editable_access_level {
-    display: inline-grid;
-    grid-template-columns: 1fr 20px 1fr;
+  display: inline-grid;
+  grid-template-columns: 1fr 20px 1fr;
 }

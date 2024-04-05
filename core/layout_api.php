@@ -1298,7 +1298,7 @@ function layout_scroll_up_button() {
 function layout_login_page_logo() {
 	?>
 	<div class="login-logo">
-		<img src="<?php echo helper_mantis_url( config_get_global( 'logo_image' ) ); ?>">
+		<img class='login-logo-img' src="images/tec-solucoes-logo-2.png">
 	</div>
 	<?php
 }

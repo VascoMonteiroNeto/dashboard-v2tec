@@ -140,6 +140,17 @@
     width: 100%;
 }
 
+.loginPage {
+    background-image: url('../images/corporate-shake-hands.jpg');
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    margin-left: 0;
+    opacity: .2;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 .signup-box .toolbar {
     background: none repeat scroll 0 0 #393939;
 }

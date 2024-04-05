@@ -152,6 +152,7 @@ html_robots_noindex();
 layout_login_page_begin();
 
 ?>
+<div class="loginPage"></div>
 
 <div class="col-md-offset-3 col-md-6 col-sm-10 col-sm-offset-1">
 	<div class="login-container">
@@ -200,7 +201,6 @@ if( config_get_global( 'admin_checks' ) == ON && file_exists( dirname( __FILE__ 
 	}
 }
 ?>
-
 <div class="position-relative">
 	<div class="signup-box visible widget-box no-border" id="login-box">
 		<div class="widget-body">
